@@ -519,7 +519,7 @@ p {
 
 .home-blog-area {
 	padding: 40px 24px 100px 24px;
-	background-color: #d8deee;
+	background-color: #CBD2FA;
 	/*background-image: url("media/pattern4_gray.png");
     background-repeat: repeat-y repeat-x;*/
 }
@@ -833,7 +833,7 @@ footer {
 }
 
 .about-jia-more {
-	background-color: #d8deee;
+	background-color: #CBD2FA;
 	padding-top: 20px;
 	/*padding-bottom: 60px;*/
 }
@@ -930,12 +930,12 @@ footer {
 }
 
 .project-more {
-	background-color: #d8deee;
+	background-color: #CBD2FA;
 	padding-bottom: 70px;
 }
 
 .project-more-images {
-	background-color: #d8deee;
+	background-color: #CBD2FA;
 	/*min-height: 400px;*/
 	padding: 15px 180px;
 	margin: 0 auto;
@@ -1005,7 +1005,7 @@ footer {
 .project-more-info {
 	padding: 38px 180px;
 	/*min-height: 200px;*/
-	background-color: #d8deee;
+	background-color: #CBD2FA;
 	display: block;
 	position: relative;
 }
@@ -1060,8 +1060,8 @@ footer {
 /* contact page **************************/
 
 .contact-post {
-	background-color: #FFFFFF;
-	margin-top: -425px;
+/*	background-color: #FFFFFF;
+*/	margin-top: -425px;
 	padding: 40px 24px 24px 24px;
 	position: relative; 
 	z-index: 2;
@@ -1075,7 +1075,7 @@ footer {
 }
 
 .contact-image {
-	background-color: #F1F1F2;
+	background-color: #CBD2FA;
     background-size: cover;
     background-position: center center;
 	padding-bottom: 37px;
