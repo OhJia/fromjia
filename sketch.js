@@ -10,7 +10,7 @@ $('#menu-icon, #menu-icon-close').on('click', function() {
 	return false;
 });
 
-$('#content').on('click', function() {
+$('#content-overlay').on('click', function() {
 	$('#nav-pullout').removeClass('open');
 	$('#menu-items').removeClass('open');
 	$('.menu-bar').removeClass('open');
@@ -85,8 +85,6 @@ $('#back-to-top').on('click', function() {
 
 // fade on each page
  $(window).on('beforeunload', function() {
-
-
     $('body').addClass('unload');
     return;
 });
