@@ -51,6 +51,7 @@ $(window).on('resize', function() {
 	if (scrollTop + headerOffset <= 80) {
 		$('#breadcrumbs').removeClass('bottom');
 		$('#brand').removeClass('down');
+		$('#header.home').removeClass('bottom');
 		$.each(sectionTops, function(title,top) {
 			console.log(title,scrollTop,top)
 			if (scrollTop + headerOffset <= top) {
@@ -62,8 +63,9 @@ $(window).on('resize', function() {
 	else {
 		$('#breadcrumbs').addClass('bottom');
 		$('#brand').addClass('down');
+		$('#header.home').addClass('bottom');
 		$.each(sectionTops, function(title,top) {
-			console.log(title,scrollTop,top)
+			// console.log(title,scrollTop,top)
 			if (scrollTop + headerOffset <= top) {
 			$('#breadcrumbs.bottom h1').html(title)
 			return false;
