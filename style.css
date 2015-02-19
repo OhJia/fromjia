@@ -182,7 +182,7 @@ p {
 	position: fixed;
 	width: 50px;
 	min-height: 100%;
-	background-color: #F1F1F2;
+	background-color: #FAFAFA;
 	/*background-color: #54C0FC; */
 	z-index: 999999;
 	overflow: hidden;
@@ -566,6 +566,19 @@ p {
 	background-color: #CBD2FA;
 	/*background-image: url("media/pattern4_gray.png");
     background-repeat: repeat-y repeat-x;*/
+}
+
+.home-black-area {
+	padding: 40px 24px 100px 24px;
+	background-color: #000;
+	min-height: 350px;
+	margin-bottom: 4px;
+}
+
+.home-black-area img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 60px
 }
 
 #project-list .home-projects-area {padding-left: 12px; padding-right: 12px;}
