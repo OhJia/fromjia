@@ -573,12 +573,14 @@ p {
 	background-color: #000;
 	min-height: 350px;
 	margin-bottom: 4px;
+	min-height: 500px;
 }
 
 .home-black-area img {
 	display: block;
 	margin: 0 auto;
-	margin-top: 60px
+	margin-top: 120px;
+	width: 200px;
 }
 
 #project-list .home-projects-area {padding-left: 12px; padding-right: 12px;}

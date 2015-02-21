@@ -1,3 +1,27 @@
+
+var pngLength = 40;
+var pngIndex = 1;
+$(window).on('scroll', function() {
+
+	$('img#pngImg').attr('src', '/media/dancing_s/' + pngIndex + '.png'); // attributes
+	console.log('png', pngIndex);
+
+	pngIndex++;
+	if (pngIndex > pngLength) {
+		pngIndex = 1;
+	}
+});
+
+$(document).ready(function() {
+	for (var i = 1; i <= pngLength; i++) {
+		var img = new Image();
+		img.onload = function() {};
+		img.src = '/media/dancing_s/' + i +'.png';
+	}
+})
+
+
+
 // menu 
 $('#menu-icon, #menu-icon-close').on('click', function() {
 	$('#nav-pullout').toggleClass('open');
