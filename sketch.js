@@ -1,5 +1,5 @@
 
-var pngLength = 30;
+var pngLength = 40;
 var pngIndex = 1;
 $(window).on('scroll', function() {
 
