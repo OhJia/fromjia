@@ -1,10 +1,10 @@
 
-var pngLength = 40;
+var pngLength = 30;
 var pngIndex = 1;
 $(window).on('scroll', function() {
 
 	$('img#pngImg').attr('src', '/media/dancing_s/' + pngIndex + '.png'); // attributes
-	console.log('png', pngIndex);
+	// console.log('png', pngIndex);
 
 	pngIndex++;
 	if (pngIndex > pngLength) {
