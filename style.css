@@ -268,7 +268,7 @@ p {
 }
 
 #menu-icon-close {
-	display: absolute;
+	position: absolute;
 	left: 20px;
 	/*padding-top: 28px;*/
 	/*background-color: black;*/
