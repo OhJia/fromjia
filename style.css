@@ -135,7 +135,8 @@ h2 a {
 }
 
 h5 a {
-	color: #ED1D3E;
+	/*color: #ED1D3E;*/
+	color: white;
 }
 
 p {
@@ -789,6 +790,7 @@ p {
   	float: right;
   	color: white;
   	margin-bottom: 0px;
+  	margin-right: 10px;
 }
 
 .blog-date {
