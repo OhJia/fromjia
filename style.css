@@ -782,6 +782,15 @@ p {
   	margin-bottom: 0px;
 }
 
+.project-box-tag h5 {
+	display: inline;
+	background-color: #e92346;
+  	padding: 8px 40px;
+  	float: right;
+  	color: white;
+  	margin-bottom: 0px;
+}
+
 .blog-date {
 	position: relative; 
 	z-index: 2;
