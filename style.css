@@ -388,7 +388,7 @@ p {
 	margin-top: 0px;
 	padding-bottom: 10px;
 	transition: background-color 0.8s;
-	transition: margin-top 0.5s;
+	transition: margin-top 0s;
 }
 
 #breadcrumbs {
