@@ -578,7 +578,7 @@ p {
 
 .home-projects-area {
 	padding: 40px 24px 180px 24px;
-	background-color: #FFD4CA;
+	background-color: #fbdeda;
 	/*background-image: url("media/pattern4_gray.png");
     background-repeat: repeat-y repeat-x;*/
 }
@@ -646,9 +646,10 @@ p {
 	background-color: #f3f4f4;
 	padding: 15px;
 	min-height: 250px;
-	border-radius: 2px;
-	margin-top: -40px;
+	/* border-radius: 2px; */
+	margin-top: -140px;
 	margin-left: 20px;
+	margin-right: -4px;
 }
 
 .project-box h1 {
@@ -694,6 +695,11 @@ p {
 	text-decoration: underline;
 }
 
+.project-box-tag {
+	background-color: #e9e9e9;
+	margin-left: 30px;
+	margin-right: 26px;
+}
 
 .project-title h5{
 	display: inline;
