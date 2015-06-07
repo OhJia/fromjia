@@ -376,8 +376,8 @@ p {
 
 #header.home {
 	background-color: #e92346;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	margin-top: 10px;
 	padding: 0 20px 0 24px;
 	transition: background-color 0.2s;
