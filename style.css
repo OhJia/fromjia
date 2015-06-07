@@ -702,6 +702,7 @@ p {
 	margin-right: 6px;
 	padding-left: 10px;
 	margin-top: -100px;
+	z-index: -100;
 }
 
 .project-title h5{
