@@ -644,8 +644,8 @@ p {
 
 .project-box {
 	background-color: #f3f4f4;
-	padding: 15px;
-	min-height: 250px;
+	padding: 15px 0px 15px 20px;
+	min-height: 20px;
 	/* border-radius: 2px; */
 	margin-top: -140px;
 	margin-left: 20px;
@@ -688,7 +688,7 @@ p {
 }
 
 .tag {
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 .tag h2 {
@@ -698,7 +698,8 @@ p {
 .project-box-tag {
 	background-color: #e9e9e9;
 	margin-left: 30px;
-	margin-right: 26px;
+	margin-right: 6px;
+	padding-left: 10px;
 }
 
 .project-title h5{
