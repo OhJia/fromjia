@@ -643,10 +643,12 @@ p {
 }
 
 .project-box {
-	background-color: #FFF;
+	background-color: #f3f4f4;
 	padding: 15px;
 	min-height: 250px;
 	border-radius: 2px;
+	margin-top: -40px;
+	margin-left: 20px;
 }
 
 .project-box h1 {
@@ -815,6 +817,15 @@ p {
     background-position: center center;
 	padding-bottom: 37px;
 	min-height: 240px;
+	/*margin-bottom: 4px;*/
+}
+
+.proj-image-area {
+	background-color: #F1F1F2;
+    background-size: cover;
+    background-position: center center;
+	padding-bottom: 37px;
+	min-height: 340px;
 	/*margin-bottom: 4px;*/
 }
 
