@@ -186,7 +186,7 @@ p {
 	/*background-color: #54C0FC; */
 	z-index: 999999;
 	overflow: hidden;
-	box-shadow: inset 0 0px 3px rgba(14,15,16,0.32);
+	/*box-shadow: inset 0 0px 3px rgba(14,15,16,0.32);*/
 	/*background-image: url("media/pattern2_gray.png");
     background-repeat: repeat-y repeat-x;*/
     /*left: -220px;*/
@@ -354,7 +354,7 @@ p {
 	bottom: 100%;
 	opacity: 0;
 	z-index: 1000;
-	background-color: #000;
+	background-color: #e92346;
 	display: block;
 	transition: right 0s 0.5s, bottom 0s 0.5s, opacity 0.5s;
 }
@@ -362,7 +362,7 @@ p {
 #content-overlay.display {
 	right: 0;
 	bottom: 0;
-	opacity: 0.7;
+	opacity: 0.3;
 	transition: right 0s, bottom 0s, opacity 0.5s;
 }
 
