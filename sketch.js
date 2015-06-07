@@ -44,10 +44,10 @@ $('#content-overlay').on('click', function() {
 	$('#breadcrumbs').removeClass('push');
 	return false;
 });
-
+alert('a')
 // menu 
-$('.project-box').on('click', function() {
-	$('.project-box-tag ').toggleClass('open');
+$('.project-box').on('mouseover', function() {
+	$(this).find('.project-box-tag ').toggleClass('open');
 	// $('#menu-items').toggleClass('open');
 	// $('.menu-bar').toggleClass('open');
 	// $('#nav-footer').toggleClass('open');
