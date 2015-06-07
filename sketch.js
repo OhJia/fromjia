@@ -46,7 +46,7 @@ $('#content-overlay').on('click', function() {
 });
 
 // menu 
-$('.project-box').on('mouseover', function() {
+$('.project-box').on('click', function() {
 	$('.project-box-tag ').toggleClass('open');
 	// $('#menu-items').toggleClass('open');
 	// $('.menu-bar').toggleClass('open');
