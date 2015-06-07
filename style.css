@@ -386,7 +386,8 @@ p {
 #header.home.bottom {
 	background-color: #FFF;
 	margin-top: 0px;
-	transition: background-color 1s;
+	transition: background-color 0.8s;
+	transition: margin-top 0.5s;
 }
 
 #breadcrumbs {
