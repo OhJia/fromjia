@@ -72,7 +72,7 @@ $(window).on('resize', function() {
 	var scrollTop = $(this).scrollTop();
 	if (scrollTop < 0) scrollTop = 0; // counter apple's negative scroll
 	
-	if (scrollTop + headerOffset <= 80) {
+	if (scrollTop + headerOffset <= 800) {
 		$('#breadcrumbs').removeClass('bottom');
 		$('#brand').removeClass('down');
 		$('#header.home').removeClass('bottom');

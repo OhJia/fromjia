@@ -272,7 +272,7 @@ p {
 	/*background-color: black;*/
 	/*height: 3px;*/
 	width: 15px;
-	margin: 30px 0 2px 16px;
+	margin: 30px 0 2px 0px;
 	line-height: 0;
 }
 
@@ -324,8 +324,8 @@ p {
 }
 
 #content {
-	padding-left: 54px;
-	padding-right: 4px;	
+	padding-left: 10px;
+	padding-right: 10px;	
 	box-shadow: inset 0 1px 5px rgba(14,15,16,0.12);
 }
 
@@ -375,9 +375,10 @@ p {
 }
 
 #header.home {
-	background-color: #FFD4CA;
-	margin-left: 54px;
-	margin-right: 4px;
+	background-color: #e92346;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
 	padding: 0 20px 0 24px;
 	transition: background-color 0.2s;
 }
@@ -389,6 +390,7 @@ p {
 
 #breadcrumbs {
 	padding-top: 24px;
+	text-align: center;
 }
 
 #brand {
@@ -492,9 +494,9 @@ p {
 }
 
 #intro {
-	padding-bottom: 180px;
+	padding-bottom: 80px;
 	padding-top: 10px;
-	padding-right: 100px;
+	/*padding-right: 100px;*/
 }
 
 #intro h2 {
@@ -502,9 +504,15 @@ p {
 }
 
 .home-intro {
-	padding: 80px 24px 54px 24px;
-	background-color: #FFD4CA;
-	margin-bottom: 4px;
+	padding: 80px 55px 54px 55px;
+	background-color: #fbdeda;
+	/*margin-top: 10px;*/
+}
+
+.home-intro-splash {
+	background-color: #e92346;
+	min-height: 450px;
+	margin-top: 10px;
 }
 
 .home-intro h1 {
@@ -516,6 +524,10 @@ p {
 .big-intro {
 	padding: 80px 24px 54px 24px;
 	background-color: #FFFFFF;
+}
+
+#things-i-made {
+	background-color: #fbdeda;
 }
 
 #updates-home {
@@ -547,7 +559,7 @@ p {
 }
 
 .project-home {
-	background-color: #F1F1F1;
+	background-color: #fbdeda;
 }
 
 .project {
@@ -571,9 +583,10 @@ p {
 .home-black-area {
 	padding: 40px 24px 100px 24px;
 	background-color: #000;
-	min-height: 350px;
+	min-height: 200px;
 	margin-bottom: 4px;
-	min-height: 500px;
+	margin-left: 55px;
+	margin-right: 55px;
 }
 
 .home-black-area img {
@@ -662,7 +675,7 @@ p {
 }
 
 .tag {
-	margin-top: 10px;
+	margin-top: 30px;
 }
 
 .tag h2 {
@@ -683,8 +696,11 @@ p {
     background-size: cover;
     background-position: center center;
 	padding-bottom: 37px;
-	min-height: 554px;
-	margin-bottom: 4px;
+	/*min-height: 554px;*/
+	height: 280px;
+	margin-bottom: 100px;
+	margin-left: 55px;
+	margin-right: 55px;
 }
 
 .blog-title {
@@ -704,7 +720,7 @@ p {
 }
 
 .blog-text h1 {
-	padding-bottom: 15px
+	padding-bottom: 8px
 }
 
 .blog-text p {
@@ -723,11 +739,12 @@ p {
 
 
 .blog-home-post {
-	background-color: #FFFFFF;
+	background-color: #f3f4f4;
 	/*border: 1px solid black;*/
-	margin-top: 75px;
-	margin-left: 24px;
-	padding: 40px 24px 24px 24px;
+	margin-top: 25px;
+	margin-right: 44px;
+	float: right;
+	padding: 40px 24px 14px 40px;
 	position: relative; 
 	z-index: 2;
 	border-radius: 2px;
@@ -739,6 +756,11 @@ p {
 
 .blog-home-post h5{
 	display: inline;
+	background-color: #e92346;
+  	padding: 8px 40px;
+  	float: right;
+  	color: white;
+  	margin-bottom: 0px;
 }
 
 .blog-date {
@@ -1218,39 +1240,60 @@ a[data-show-tag] h6 {
 	color: #fff;
 	font-weight: bold;
 	display: inline-block;
-	padding: 5px 2px;
+	padding: 5px 6px;
 	margin-right: 5px;
+	font-size: 16px;
 }
 
 a[data-show-tag="design"] h6 {
-	background-color: #E62330;
+	/*background-color: #E62330;*/
+	border: solid #E62330;
+	color: #E62330;
 }
 a[data-show-tag="social"] h6 {
-	background-color: #D13042;
+	/*background-color: #D13042;*/
+	border: solid #D13042;
+	color: #D13042;
 }
 a[data-show-tag="data"] h6 {
-	background-color:#C23C50;
+/*	background-color:#C23C50;
+*/	border: solid #C23C50;
+	color: #C23C50;
 }
 a[data-show-tag="digital"] h6 {
-	background-color: #B1415B;
+	/*background-color: #B1415B;*/
+	border: solid #B1415B;
+	color: #B1415B;
 }
 a[data-show-tag="hardware"] h6 {
-	background-color: #9F496A;
+	/*background-color: #9F496A;*/
+	border: solid #9F496A;
+	color: #9F496A;
 }
 a[data-show-tag="wearable"] h6 {
-	background-color: #924D75;
+	/*background-color: #924D75;*/
+	border: solid #924D75;
+	color: #924D75;
 }
 a[data-show-tag="game"] h6 {
-	background-color: #825082;
+	/*background-color: #825082;*/
+	border: solid #825082;
+	color: #825082;
 }
 a[data-show-tag="web"] h6 {
-	background-color: #71538F;
+	/*background-color: #71538F;*/
+	border: solid #71538F;
+	color: #71538F;
 }
 a[data-show-tag="mobile"] h6 {
-	background-color: #625597;
+	/*background-color: #625597;*/
+	border: solid #625597;
+	color: #625597;
 }
 a[data-show-tag="writing"] h6 {
-	background-color: #4A57A0;
+	/*background-color: #4A57A0;*/
+	border: solid #4A57A0;
+	color: #4A57A0;
 }
 
 
