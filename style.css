@@ -582,7 +582,7 @@ p {
 }
 
 .home-black-area {
-	padding: 40px 24px 100px 24px;
+	padding: 0px 24px 50px 24px;
 	background-color: #000;
 	min-height: 200px;
 	margin-bottom: 4px;
@@ -787,7 +787,7 @@ p {
 	padding: 15px;
 	/*margin-left:400px;
 	margin-right: 400px;*/
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .blog-link a {
