@@ -400,6 +400,8 @@ p {
 	padding-top: 28px;
 	transition: padding-top 0.2s;
 	transform-origin: top right;
+	position: absolute;
+	right: 0;
 }
 
 #brand.down {
