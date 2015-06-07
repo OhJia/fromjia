@@ -385,6 +385,7 @@ p {
 
 #header.home.bottom {
 	background-color: #FFF;
+	margin-top: 0px;
 	transition: background-color 1s;
 }
 
