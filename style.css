@@ -701,9 +701,17 @@ p {
 	margin-left: 30px;
 	margin-right: 6px;
 	padding-left: 10px;
-	margin-top: -100px;
-	z-index: -100;
+	/* margin-top: -100px; */
+	height: 0;
+	z-index: 999999;
+	overflow: hidden;
 }
+
+.project-box-tag .open {
+	height: 40px;
+	transition: width 0.5s;
+}
+
 
 .project-title h5{
 	display: inline;

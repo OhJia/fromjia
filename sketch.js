@@ -45,6 +45,18 @@ $('#content-overlay').on('click', function() {
 	return false;
 });
 
+// menu 
+$('.project-box').on('mouseover', function() {
+	$('.project-box-tag ').toggleClass('open');
+	// $('#menu-items').toggleClass('open');
+	// $('.menu-bar').toggleClass('open');
+	// $('#nav-footer').toggleClass('open');
+	// $('#content-pullout').toggleClass('content-pullout');
+	// $('#content-overlay').toggleClass('display');
+	// $('#breadcrumbs').toggleClass('push');
+	return false;
+});
+
 // categories
 $('a[data-show-tag]').on('click', function() {
 	var tag = $(this).attr('data-show-tag');
