@@ -815,6 +815,7 @@ p {
 footer {
 	background-color: #3c3c3c;
 	margin-top: 0px;
+	margin-bottom: 10px;
 	min-height: 160px;
 }
 
