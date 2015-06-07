@@ -363,7 +363,7 @@ p {
 #content-overlay.display {
 	right: 0;
 	bottom: 0;
-	opacity: 0.3;
+	opacity: 0.6;
 	transition: right 0s, bottom 0s, opacity 0.5s;
 }
 
