@@ -281,6 +281,10 @@ p {
 
 }
 
+#menu-icon-close.down {
+	left: 30px;
+}
+
 #menu-icon .menu-bar {
 	display: block;
 	background-color: black;
@@ -356,7 +360,7 @@ p {
 	bottom: 100%;
 	opacity: 0;
 	z-index: 1000;
-	background-color: #e92346;
+	background-color: #4958a1;
 	display: block;
 	transition: right 0s 0.5s, bottom 0s 0.5s, opacity 0.5s;
 }
@@ -364,7 +368,7 @@ p {
 #content-overlay.display {
 	right: 0;
 	bottom: 0;
-	opacity: 0.6;
+	opacity: 0.2;
 	transition: right 0s, bottom 0s, opacity 0.5s;
 }
 
@@ -390,10 +394,17 @@ p {
 
 #header.home.bottom {
 	background-color: #FFF;
-	margin-top: 0px;
+	margin: 0px;
 	padding-top: 10px;
+	/* padding-left: 10px; */
+	/* padding-right: 10px; */
 	transition: background-color 0.8s;
 	transition: margin-top 0s;
+	box-shadow: 0px 2px 2em rgba(14,15,16,0.1);
+}
+
+#header.bottom {
+	box-shadow: 0px 2px 2em rgba(14,15,16,0.1);
 }
 
 #breadcrumbs {
@@ -413,7 +424,7 @@ p {
 	padding-top: 26px;
 	transition: padding-top 0.2s;
 	transform-origin: top right;
-
+	right: 30px;
 }
 
 #brand.down img{
@@ -644,20 +655,24 @@ p {
 }
 
 .project-box {
-	background-color: #f3f4f4;
-	padding: 15px 0px 15px 20px;
 	min-height: 20px;
 	/* border-radius: 2px; */
 	margin-top: -140px;
 	margin-left: 20px;
 	margin-right: -4px;
+	margin-bottom: 53px;
+	position: relative;
+	box-shadow: 0 0px 1px 0 rgba(14,15,16,0.12);
 }
 
 .project-box h1 {
 	margin-top: 0;
+	font-size: 24px;
 }
 
 .project-box-description {
+	background-color: #fff;
+	padding: 15px 10px 15px 20px;
 	min-height: 150px;
 }
 
@@ -698,18 +713,34 @@ p {
 
 .project-box-tag {
 	background-color: #e9e9e9;
-	margin-left: 30px;
-	margin-right: 6px;
 	padding-left: 10px;
-	/* margin-top: -100px; */
-	height: 0;
+	/*margin-top: -50px; */
 	z-index: 999999;
 	overflow: hidden;
+	height: 0;
+	transition: height 0.3s, bottom 0.3s;
+	position: absolute;
+	bottom: 0;
+	left: 2px;
+	right: 2px;
+	box-shadow: inset 0px 1.2px 0px 0px rgba(14,15,16,0.05);
+	border-radius: 2px;
 }
 
-.project-box-tag .open {
-	height: 100px;
-	transition: width 0.5s;
+.project-box:hover .project-box-tag {
+	height: 53px;
+	bottom: -53px;
+	/*margin-top: 0;*/
+	/*transition: margin-top 0.5s, height 0.5s;*/
+}
+
+.project-box-tag .tag {
+	margin-top: -50px; 
+	transition: margin-top 0.3s;
+}
+
+.project-box:hover .project-box-tag .tag {
+	margin-top: 0;
 }
 
 
@@ -747,6 +778,7 @@ p {
 .blog-text {
 	/*min-height: 250px;*/
 	padding-right: 85px;
+	padding-bottom: 25px;
 }
 
 .blog-text h1 {
@@ -769,7 +801,7 @@ p {
 
 
 .blog-home-post {
-	background-color: #f3f4f4;
+	background-color: #fff;
 	/*border: 1px solid black;*/
 	margin-top: 25px;
 	margin-right: 44px;
@@ -778,6 +810,7 @@ p {
 	position: relative; 
 	z-index: 2;
 	border-radius: 2px;
+	box-shadow: 0 0px 1px 0 rgba(14,15,16,0.12);
 }
 
 .blog-home-post .pull-right {
@@ -787,7 +820,7 @@ p {
 .blog-home-post h5{
 	display: inline;
 	background-color: #e92346;
-  	padding: 8px 40px;
+  	padding: 8px 65px;
   	float: right;
   	color: white;
   	margin-bottom: 0px;
@@ -796,7 +829,7 @@ p {
 .project-box-tag h5 {
 	display: inline;
 	background-color: #e92346;
-  	padding: 8px 40px;
+  	padding: 8px 65px;
   	float: right;
   	color: white;
   	margin-bottom: 0px;
@@ -921,9 +954,9 @@ footer {
 /* about page **************************/
 
 .portrait-area {
-	padding: 40px 24px 30px 24px;
-	background-color: #FFD4CA;
-	margin-bottom: 4px
+	padding: 40px 0px 30px 0px;
+  background-color: #fbdeda;
+  margin-bottom: 0px;
 }
 
 .about-image {
@@ -947,8 +980,8 @@ footer {
 
 .about-jia {
 	min-height: 200px;
-	background-color: #FFD4CA;
-	margin-bottom: 4px;
+	background-color: #fbdeda;
+	/*margin-bottom: 4px;*/
 }
 
 .about-jia-post {
@@ -961,6 +994,7 @@ footer {
 	z-index: 2;
 	border-radius: 2px;
 	min-height: 350px;
+	box-shadow: 0 0px 2px 0 rgba(14,15,16,0.12);
 }
 
 .about-jia-post p {
@@ -990,7 +1024,7 @@ footer {
 
 .about-badges {
 	padding-right: 24px;
-	padding-left: 24px;
+	padding-left: 55px;
 	padding-top: 30px;
 }
 
@@ -1048,19 +1082,20 @@ footer {
 /* project page **************************/
 
 .project-post {
-	background-color: #FFFFFF;
+	background-color: #fff;
 	/*border: 1px solid black;*/
-	margin-top: -10px;
-	margin-left: 20px;
+	margin-top: -20px;
+	margin-left: 55px;
 	margin-right: -20px;
 	padding: 30px 24px 24px 54px;
 	position: relative; 
 	z-index: 2;
 	border-radius: 2px;
+	box-shadow: 0 0px 2px 0 rgba(14,15,16,0.12);
 }
 
 .project-right-area {
-	padding-left: 85px;
+	padding-left: 65px;
 	margin-top: 20px;
 }
 
@@ -1101,12 +1136,17 @@ footer {
 	padding-bottom: 10px;*/
 }
 
+.project-arrows {
+	margin-top: 20px;
+}
+
 .project-arrows h5{
 	display: inline-block;
-	background-color: white;
-	border: 1px solid black;
-	padding: 22px 22px;
-	border-radius: 2px;
+	background-color: #f3f4f4;
+	/*border: 1px solid black;*/
+	padding: 30px 30px;
+	border-radius: 6px;
+	box-shadow: 2px 2px 0px 0 rgba(14,15,16,0.12);
 }
 
 .project-arrows img {
@@ -1123,11 +1163,22 @@ footer {
 	transition: opacity 0.5s;
 }
 
+#project-tags a {
+	display: inline-block;
+	padding-right: 10px;
+	/*border: solid #B1415B;*/
+}
+
+#projects-cat {
+	margin: 0 auto;
+  text-align: center;
+}
+
 .web-link h5 {
 	color: white;
 	display: inline-block;
-	background-color: black;
-	padding: 15px 50px;
+	background-color: #e92346;
+	padding: 15px 65px;
 
 }
 
@@ -1157,8 +1208,8 @@ footer {
 }
 
 .project-tag {
-	padding-bottom: 25px;
-	padding-top: 25px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 .wip-image img{
@@ -1232,13 +1283,18 @@ footer {
 }
 
 .blog-box {
-	background-color: #f3f4f4;
-	  padding: 15px 0px 20px 20px;
-	  min-height: 200px;
-	  /*border-radius: 2px;*/
-	  margin-top: -80px;
-	  margin-left: 20px;
-	  margin-right: -4px;
+	background-color: #fff;
+  padding: 15px 10px 20px 0px;
+  min-height: 200px;
+  /* border-radius: 2px; */
+  margin-top: -30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 0 1px 0px 0 rgba(14,15,16,0.12);
+}
+
+.blog-box h1 {
+	font-size: 24px;
 }
 
 .blog-box p {
@@ -1252,7 +1308,7 @@ footer {
 
 a[data-show-tag] h1 {
 	font-size: 20px;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 a[data-show-tag="design"] h1{
 	color: #E62330;
