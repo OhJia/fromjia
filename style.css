@@ -384,12 +384,13 @@ p {
 }
 
 #header.home {
-	background-color: #e92346;
+	background-color: transparent;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
 	padding: 0 20px 20px 24px;
 	transition: background-color 0.2s;
+	font-size: 0px;
 }
 
 #header.home.bottom {
@@ -524,6 +525,12 @@ p {
 	line-height: 150%;
 }
 
+#intro-triangle {
+	margin: 0 auto;
+	text-align: center;
+	  padding-top: 40px;
+}
+
 .home-intro {
 	padding: 80px 55px 54px 55px;
 	background-color: #fbdeda;
@@ -574,6 +581,11 @@ p {
 	color: #ED1D3E;
 }
 
+#more-proj-link {
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
 
 .project-title {
 	color: white;
@@ -597,7 +609,7 @@ p {
 
 .home-blog-area {
 	padding: 40px 55px 100px 55px;
-	background-color: #d3d8ee;
+	background-color: #CBD2FA;
 	/*background-image: url("media/pattern4_gray.png");
     background-repeat: repeat-y repeat-x;*/
 }
@@ -616,6 +628,7 @@ p {
 	margin: 0 auto;
 	margin-top: 40px;
 	width: 200px;
+	padding-right: 27px;
 }
 
 #project-list .home-projects-area {padding-left: 12px; padding-right: 12px;}
@@ -657,7 +670,7 @@ p {
 .project-box {
 	min-height: 20px;
 	/* border-radius: 2px; */
-	margin-top: -140px;
+	margin-top: -130px;
 	margin-left: 20px;
 	margin-right: -4px;
 	margin-bottom: 53px;
@@ -673,7 +686,7 @@ p {
 .project-box-description {
 	background-color: #fff;
 	padding: 15px 10px 15px 20px;
-	min-height: 150px;
+	min-height: 175px;
 }
 
 .project-box-description p {
@@ -853,7 +866,7 @@ p {
 }
 
 .blog-link {
-	/*background-color: black;*/
+	background-color: black;
 	margin-top:45px;
 	text-align: center;
 	padding: 15px;
@@ -863,7 +876,7 @@ p {
 }
 
 .blog-link a {
-	color:black;
+	color:white;
 }
 
 .blog-link.over {
@@ -1310,7 +1323,7 @@ a[data-show-tag] h1 {
 	font-size: 20px;
 	/*text-decoration: underline;*/
 }
-a[data-show-tag="design"] h1{
+/*a[data-show-tag="design"] h1{
 	color: #E62330;
 }
 a[data-show-tag="social"] h1{
@@ -1342,6 +1355,25 @@ a[data-show-tag="digital"]  h1 {
 }
 a[data-show-tag="all"]  h1 {
 	color: #3c3c3c;
+}*/
+
+a[data-show-tag="mobile"] h1{
+	color: #c43d52;
+}
+a[data-show-tag="web"] h1{
+	color: #a04a6b;
+}
+a[data-show-tag="hardware"]  h1{
+	color: #845184;
+}
+a[data-show-tag="wearable"]  h1{
+	color: #625598;
+}
+a[data-show-tag="other"]  h1{
+	color: #4958a1;
+}
+a[data-show-tag="all"]  h1{
+	color: #3c3c3c;
 }
 
 
@@ -1354,56 +1386,76 @@ a[data-show-tag] h6 {
 	font-size: 16px;
 }
 
-a[data-show-tag="design"] h6 {
-	/*background-color: #E62330;*/
+a[data-show-tag="mobile"] h6 {
+	border: solid #d32d44;
+	color: #d32d44;
+}
+a[data-show-tag="web"] h6 {
+	border: solid #c43d52;
+	color: #c43d52;
+}
+a[data-show-tag="hardware"] h6 {
+	border: solid #a04a6b;
+	color: #a04a6b;
+}
+a[data-show-tag="wearable"] h6 {
+	border: solid #735692;
+	color: #735692;
+}
+a[data-show-tag="data"] h6 {
+	border: solid #625598;
+	color: #625598;
+}
+
+a[data-show-tag="other"] h6 {
+	border: solid #4958a1;
+	color: #4958a1;
+}
+a[data-show-tag="all"] h6 {
+	border: solid #3c3c3c;
+	color: #3c3c3c;
+}
+
+/*a[data-show-tag="design"] h6 {
 	border: solid #E62330;
 	color: #E62330;
 }
 a[data-show-tag="social"] h6 {
-	/*background-color: #D13042;*/
 	border: solid #D13042;
 	color: #D13042;
 }
 a[data-show-tag="data"] h6 {
-/*	background-color:#C23C50;
-*/	border: solid #C23C50;
+	border: solid #C23C50;
 	color: #C23C50;
 }
 a[data-show-tag="digital"] h6 {
-	/*background-color: #B1415B;*/
 	border: solid #B1415B;
 	color: #B1415B;
 }
 a[data-show-tag="hardware"] h6 {
-	/*background-color: #9F496A;*/
 	border: solid #9F496A;
 	color: #9F496A;
 }
 a[data-show-tag="wearable"] h6 {
-	/*background-color: #924D75;*/
 	border: solid #924D75;
 	color: #924D75;
 }
 a[data-show-tag="game"] h6 {
-	/*background-color: #825082;*/
 	border: solid #825082;
 	color: #825082;
 }
 a[data-show-tag="web"] h6 {
-	/*background-color: #71538F;*/
 	border: solid #71538F;
 	color: #71538F;
 }
 a[data-show-tag="mobile"] h6 {
-	/*background-color: #625597;*/
 	border: solid #625597;
 	color: #625597;
 }
 a[data-show-tag="writing"] h6 {
-	/*background-color: #4A57A0;*/
 	border: solid #4A57A0;
 	color: #4A57A0;
-}
+}*/
 
 
 @media (min-width: 768px) {
