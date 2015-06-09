@@ -1,23 +1,23 @@
 
 var pngLength = 40;
-var tLength = 18;
-var tIndex = 1;
+// var tLength = 18;
+// var tIndex = 1;
 var pngIndex = 1;
 $(window).on('scroll', function() {
 
 	$('img#pngImg').attr('src', '/media/dancing_s/' + pngIndex + '.png'); // attributes
-	$('img#tImg').attr('src', '/media/triangle_s/' + tIndex + '.png'); // attributes
+	//$('img#tImg').attr('src', '/media/triangle_s/' + tIndex + '.png'); // attributes
 	// console.log('png', pngIndex);
 
 	pngIndex++;
-	tIndex++;
+	//tIndex++;
 	if (pngIndex > pngLength) {
 		pngIndex = 1;
 	}
 
-	if (tIndex > tLength) {
-		tIndex = 1;
-	}
+	// if (tIndex > tLength) {
+	// 	tIndex = 1;
+	// }
 });
 
 $(document).ready(function() {
