@@ -1094,6 +1094,12 @@ footer {
 
 /* project page **************************/
 
+.project-video {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 38px;
+}
+
 .project-post {
 	background-color: #fff;
 	/*border: 1px solid black;*/
@@ -1237,6 +1243,10 @@ footer {
 
 .carousel-inner {
 	top: 25px;
+}
+
+.carousel-video {
+	height: 650px;
 }
 
 .carousel-control.left, .carousel-control.right {
