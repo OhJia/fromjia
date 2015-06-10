@@ -78,14 +78,15 @@ h5 {
 }
 
 a {
-	color: #ED1D3E;
+	color: #e92346;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #ED1D3E;
+	/*color: #ED1D3E;*/
+	color: #4958a1;
 	transition: color 0.5s, opacity 0.5s;
-	opacity: 0.6;
+	opacity: 0.9;
 }
 
 a:active {
@@ -113,13 +114,13 @@ a:hover h1 {
 a:hover h5 {
 	/*	color: #ED1D3E;*/
 	transition: opacity 0.5s;
-	opacity: 0.6;
+	opacity: 0.8;
 }
 
 a:hover h2 {
-	color: #ED1D3E;
+	/*color: #ED1D3E;*/
 	transition: color 0.2s, opacity 0.5s;
-	opacity: 0.9;
+	opacity: 0.6;
 }
 
 .project-list a:hover h6 {
@@ -839,6 +840,10 @@ p {
   	margin-bottom: 0px;
 }
 
+.blog-home-post h5:hover {
+	color: white;
+}
+
 .project-box-tag h5 {
 	display: inline;
 	background-color: #e92346;
@@ -901,6 +906,10 @@ p {
 	padding-bottom: 37px;
 	min-height: 340px;
 	/*margin-bottom: 4px;*/
+}
+
+.read-more {
+	padding-left: 20px;
 }
 
 footer {
