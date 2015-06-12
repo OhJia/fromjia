@@ -67,6 +67,10 @@ h2 {
 	color: black;
 }
 
+#home-h2 {
+
+}
+
 h3 {
 	font-size: 16px;
 	font-weight: bold;
@@ -548,6 +552,16 @@ p {
 	line-height: 50px;
 	padding-right: 30px;
 	padding-top: 10px;
+}
+
+.home-sections-1 {
+	margin: -80px auto 0px auto;
+	text-align: center;
+}
+
+.home-sections-2 {
+	margin: 0px auto 0px auto;
+	text-align: center;
 }
 
 .big-intro {
@@ -1063,7 +1077,7 @@ footer {
 
 .word-from-social {
 	padding: 25px;
-	color: #3c3c3c;
+	color: #cecece;
 	padding-top: 25px;
 }
 
@@ -1086,7 +1100,7 @@ footer {
 }
 
 .about-social-icons a {
-	color: #3c3c3c;
+	color: #cecece;
 	transition: color 0.5s;
 }
 
