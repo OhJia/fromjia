@@ -543,9 +543,9 @@ p {
 }
 
 .home-intro-splash {
-	background-color: #e92346;
-	min-height: 250px;
-	margin-top: 10px;
+	background-color: #fbdeda;
+  min-height: 50px;
+  margin-top: 10px;
 }
 
 .home-intro h1 {
