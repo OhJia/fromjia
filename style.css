@@ -1024,7 +1024,8 @@ footer {
 	background-color: #FFFFFF;
 	/*border: 1px solid black;*/
 	margin-top: -155px;
-	margin-left: 0px;
+	margin-left: 10px;
+	margin-right: -10px;
 	padding: 30px 24px 40px 54px;
 	position: relative; 
 	z-index: 2;
