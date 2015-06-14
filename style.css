@@ -1537,6 +1537,23 @@ body.unload #content {opacity: 0 !important;}
 	.footer-content {padding-left: 45px; padding-right: 45px; text-align: center;}
 	footer li {padding-right: 25px;}
 
+	#nav-pullout.open {
+		width: 100%;
+		text-align: center;
+	}
+
+	#nav-pullout.open h2 {
+		font-size: 38px;
+	}
+
+	#nav-pullout.open h6 {
+		font-size: 20px;
+	}
+
+	.symbol {
+		font-size: 28px;
+	}
+
 	/* home ***/
 	.home-intro {padding: 10px 0px 54px 20px; text-align: center;}
 	.home-intro-splash {margin-top: 5px;}
