@@ -1535,11 +1535,21 @@ body.unload #content {opacity: 0 !important;}
 	/*h1 {font-size: 30px;}*/
 	footer {margin-bottom: 5px;}
 	.footer-content {padding-left: 45px; padding-right: 45px; text-align: center;}
-	footer li {padding-right: 25px;}
-
+	footer li {padding-left: 8px; padding-right: 8px;}
+	/*footer ul {
+		margin: 0 auto;
+		text-align: center;
+	}*/
+	/*.footer-content .pull-right {
+		margin: 0 auto;
+		text-align: center;
+		float: inherit;
+	}
+*/
 	#nav-pullout.open {
 		width: 100%;
 		text-align: center;
+		margin: 0 auto;
 	}
 
 	#nav-pullout.open h2 {
@@ -1552,6 +1562,39 @@ body.unload #content {opacity: 0 !important;}
 
 	.symbol {
 		font-size: 28px;
+	}
+
+	#header.home {
+		transition: background-color 0s;
+	}
+
+	#header.home.bottom {
+		transition: background-color 0s;
+		transition: margin-top 0s;
+	}
+
+	#breadcrumbs {
+		transition: padding-left 0s;
+	}
+
+	#breadcrumbs.push {
+		padding-left: 170px;
+	}
+
+	#breadcrumbs.bottom h1{
+		transition: font-size 0s, padding-top 0s;
+	}
+
+	#breadcrumbs h1{
+		transition: font-size 0s, padding-top 0s;
+	}
+
+	#breadcrumbs #projects-hello h1 {
+		transition: font-size 0s, padding-top 0s;
+	}
+
+	#breadcrumbs.bottom #projects-hello h1{
+		transition: font-size 0s, padding-top 0s;
 	}
 
 	/* home ***/
