@@ -72,7 +72,7 @@ h2 {
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 28px;
 	font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ h5 {
 }
 
 a {
-	color: #e92346;
+	color: #4a0bf9;
 }
 
 a:hover {
@@ -538,12 +538,21 @@ p {
 
 .home-intro {
 	padding: 80px 55px 54px 55px;
-	background-color: #fbdeda;
+	/*background-color: #bfe2db;*/
 	/*margin-top: 10px;*/
+	background: #bff7ec; /* Old browsers */
+background: -moz-linear-gradient(top,  #bff7ec 0%, #d7dff4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bff7ec), color-stop(100%,#d7dff4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #bff7ec 0%,#d7dff4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #bff7ec 0%,#d7dff4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #bff7ec 0%,#d7dff4 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #bff7ec 0%,#d7dff4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', endColorstr='#d7dff4',GradientType=0 ); /* IE6-9 */
+
 }
 
 .home-intro-splash {
-	background-color: #fbdeda;
+	background-color: #bff7ec;
   min-height: 50px;
   margin-top: 10px;
 }
@@ -570,7 +579,7 @@ p {
 }
 
 #things-i-made {
-	background-color: #fbdeda;
+	background-color: #d7dff4;
 	padding-bottom: 100px;
 }
 
@@ -608,7 +617,7 @@ p {
 }
 
 .project-home {
-	background-color: #fbdeda;
+	background-color: #c0f2ec;
 }
 
 .project {
@@ -617,7 +626,7 @@ p {
 
 .home-projects-area {
 	padding: 40px 24px 180px 24px;
-	background-color: #fbdeda;
+	background-color: #c0f2ec;
 	/*background-image: url("media/pattern4_gray.png");
     background-repeat: repeat-y repeat-x;*/
 }
@@ -861,7 +870,8 @@ p {
 
 .blog-home-post h5{
 	display: inline;
-	background-color: #e92346;
+	/*background-color: #0722fb;*/
+	background-color: #c1c1c2;
   	padding: 8px 65px;
   	float: right;
   	color: white;
@@ -874,7 +884,7 @@ p {
 
 .project-box-tag h5 {
 	display: inline;
-	background-color: #e92346;
+	background-color: #4a0bf9;
   	padding: 8px 65px;
   	float: right;
   	color: white;
@@ -941,7 +951,7 @@ p {
 }
 
 footer {
-	background-color: #3c3c3c;
+	background-color: #f1f1f2;
 	margin-top: 0px;
 	margin-bottom: 10px;
 	min-height: 160px;
@@ -1009,7 +1019,7 @@ footer {
 
 .portrait-area {
 	padding: 40px 0px 30px 0px;
-  background-color: #fbdeda;
+  background-color: #c0f2ec;
   margin-bottom: 0px;
 }
 
@@ -1034,7 +1044,7 @@ footer {
 
 .about-jia {
 	min-height: 200px;
-	background-color: #fbdeda;
+	background-color: #c0f2ec;
 	/*margin-bottom: 4px;*/
 }
 
@@ -1057,7 +1067,7 @@ footer {
 }
 
 .about-jia-more {
-	background-color: #CBD2FA;
+	background-color: #d7e0f4;
 	padding-top: 20px;
 	/*padding-bottom: 60px;*/
 }
@@ -1161,12 +1171,12 @@ footer {
 }
 
 .project-more {
-	background-color: #CBD2FA;
+	background-color: #d7e0f4;
 	padding-bottom: 70px;
 }
 
 .project-more-images {
-	background-color: #CBD2FA;
+	background-color: #d7e0f4;
 	/*min-height: 400px;*/
 	padding: 15px 180px;
 	margin: 0 auto;
@@ -1256,7 +1266,7 @@ iframe {
 .web-link h5 {
 	color: white;
 	display: inline-block;
-	background-color: #e92346;
+	background-color: #4a0bf9;
 	padding: 15px 65px;
 
 }
@@ -1270,7 +1280,7 @@ iframe {
 .project-more-info {
 	padding: 38px 180px;
 	/*min-height: 200px;*/
-	background-color: #CBD2FA;
+	background-color: #d7e0f4;
 	display: block;
 	position: relative;
 }
@@ -1344,7 +1354,7 @@ iframe {
 }
 
 .contact-image {
-	background-color: #CBD2FA;
+	background-color: #d7e0f4;
     background-size: cover;
     background-position: center center;
 	padding-bottom: 37px;
@@ -1428,19 +1438,19 @@ a[data-show-tag="all"]  h1 {
 }*/
 
 a[data-show-tag="mobile"] h1{
-	color: #c43d52;
+	color: #272ddd;
 }
 a[data-show-tag="web"] h1{
-	color: #a04a6b;
+	color: #5c23a9;
 }
 a[data-show-tag="hardware"]  h1{
-	color: #845184;
+	color: #881e82;
 }
 a[data-show-tag="wearable"]  h1{
-	color: #625598;
+	color: #a91964;
 }
 a[data-show-tag="other"]  h1{
-	color: #4958a1;
+	color: #e61633;
 }
 a[data-show-tag="all"]  h1{
 	color: #3c3c3c;
@@ -1457,29 +1467,29 @@ a[data-show-tag] h6 {
 }
 
 a[data-show-tag="mobile"] h6 {
-	border: solid #d32d44;
-	color: #d32d44;
+	border: solid #1a30ea;
+	color: #1a30ea;
 }
 a[data-show-tag="web"] h6 {
-	border: solid #c43d52;
-	color: #c43d52;
+	border: solid #4328c0;
+	color: #4328c0;
 }
 a[data-show-tag="hardware"] h6 {
-	border: solid #a04a6b;
-	color: #a04a6b;
+	border: solid #6c229b;
+	color: #6c229b;
 }
 a[data-show-tag="wearable"] h6 {
-	border: solid #735692;
-	color: #735692;
+	border: solid #931c77;
+	color: #931c77;
 }
 a[data-show-tag="data"] h6 {
-	border: solid #625598;
-	color: #625598;
+	border: solid #bf1751;
+	color: #bf1751;
 }
 
 a[data-show-tag="other"] h6 {
-	border: solid #4958a1;
-	color: #4958a1;
+	border: solid #e61633;
+	color: #e61633;
 }
 a[data-show-tag="all"] h6 {
 	border: solid #3c3c3c;
