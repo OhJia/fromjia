@@ -1213,6 +1213,19 @@ iframe {
 	padding: 30px 30px;
 	border-radius: 6px;
 	box-shadow: 2px 2px 0px 0 rgba(14,15,16,0.12);
+	/*opacity: 1;*/
+}
+
+.project-arrows h5:hover{
+	background-color: #fff;
+	box-shadow: 1px 1px 0px 0 rgba(14,15,16,0.12);
+	opacity: 100%;
+}
+
+.project-arrows h5:active{
+	background-color: #fff;
+	box-shadow: 1px 1px 0px 0 rgba(14,15,16,0.12);
+	opacity: 100%;
 }
 
 .project-arrows img {
@@ -1631,6 +1644,9 @@ body.unload #content {opacity: 0 !important;}
 
 	}
 	.blog-text {padding-right: 0px;}
+	.project-box-tag h5 {
+		padding: 8px 40px;
+	}
 
 	/* project ***/
 	#project-list [data-tag]{
