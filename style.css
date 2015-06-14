@@ -82,7 +82,8 @@ h5 {
 }
 
 a {
-	color: #4a0bf9;
+	/*color: #4a0bf9;*/
+	color: #e61633;
 }
 
 a:hover {
@@ -617,7 +618,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', end
 }
 
 .project-home {
-	background-color: #c0f2ec;
+	background-color: #ceeae8;
 }
 
 .project {
@@ -626,7 +627,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', end
 
 .home-projects-area {
 	padding: 40px 24px 180px 24px;
-	background-color: #c0f2ec;
+	background-color: #ceeae8;
 	/*background-image: url("media/pattern4_gray.png");
     background-repeat: repeat-y repeat-x;*/
 }
@@ -884,7 +885,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', end
 
 .project-box-tag h5 {
 	display: inline;
-	background-color: #4a0bf9;
+	/*background-color: #4a0bf9;*/
+	background-color: #c1c1c2;
   	padding: 8px 65px;
   	float: right;
   	color: white;
@@ -1002,7 +1004,7 @@ footer {
 
 #back-to-top a {
 	text-decoration: none;
-	color: #F1F1F2;
+	color: #c1c1c2;
 }
 
 #back-to-top h5 {
@@ -1019,7 +1021,7 @@ footer {
 
 .portrait-area {
 	padding: 40px 0px 30px 0px;
-  background-color: #c0f2ec;
+  background-color: #ceeae8;
   margin-bottom: 0px;
 }
 
@@ -1044,7 +1046,7 @@ footer {
 
 .about-jia {
 	min-height: 200px;
-	background-color: #c0f2ec;
+	background-color: #ceeae8;
 	/*margin-bottom: 4px;*/
 }
 
