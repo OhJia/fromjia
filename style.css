@@ -1647,6 +1647,9 @@ body.unload #content {opacity: 0 !important;}
 	.project-box-tag h5 {
 		padding: 8px 40px;
 	}
+	.blog-home-post h5 {
+		padding: 8px 40px;
+	}
 
 	/* project ***/
 	#project-list [data-tag]{
