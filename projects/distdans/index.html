@@ -131,7 +131,7 @@
 				<div id='content-pullout'>
 				<!-- Header -->
 				<header id="header">
-					<div class="pull-right" id="brand">
+					<div class="pull-right hidden-xs" id="brand">
 						<a href="/" title="from Jia"><img src="/media/fromjia_logo.png" alt="from Jia" title="from Jia"></a>
 					</div>
 					<div id="menu-icon-close">
@@ -177,8 +177,11 @@
 						    </div> -->
 						   <!--  <div class="item active"> -->
 						    <div class="project-video">
+						    	<!-- <div class="project-image"> -->
 						      <!-- <img src="/media/projects/distdans/distdans1.jpg" alt="..."> -->
 						      <iframe src="https://player.vimeo.com/video/130160595?autoplay=1&title=0&byline=0&portrait=0" width="1200" height="674" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						  <!-- </div> -->
+						     <!--  <iframe src="https://player.vimeo.com/video/130160595?autoplay=1&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 						    </div>
 						    <!-- <div class="item">
 						      <img src="/media/projects/snoopi/snoopi2.jpg" alt="...">
@@ -193,6 +196,7 @@
 						<div class="about-jia">
 						
 							<div class="col-xs-16 col-sm-8 project-post">
+								
 							
 								<div class="blog-text">
 								<!-- <h1>dist/dans</h1> -->
@@ -228,7 +232,7 @@
 
 							</div>
 
-							<div class="col-xs-6 col-sm-3 project-right-area">
+							<div class="col-xs-12 col-sm-3 project-right-area">
 								<div class="project-arrows">
 									<!-- Slide Controls -->
 								 <!--  <a href="#carousel-example-generic" role="button" data-slide="prev">
@@ -288,7 +292,7 @@
 				</div>
 
 				<!-- More info, etc -->
-				<div class="project-more">
+				<div class="project-more container-fluid">
 					
 					<!-- more video -->
 <!-- 					<div class="project-more-video container-fluid">
@@ -297,7 +301,7 @@
 					
 					<!-- more text -->
 
-					<div class="project-more-info container-fluid">
+					<div class="project-more-info">
 
 							<h2>How it works</h2>
 							<p>
@@ -307,12 +311,12 @@
 					</div>
 
 					<!-- more photo -->
-					<div class="project-more-images container-fluid wip-image">
+					<div class="project-more-images wip-image">
 						<h2></h2>
 								<img src="/media/projects/distdans/distdans2.png" alt="about Jia" title="about Jia">
 					</div>
 
-					<div class="project-more-info container-fluid">
+					<div class="project-more-info">
 
 							<h2>Wireframes</h2>
 
@@ -329,18 +333,18 @@
 					</div> -->
 
 					<!-- more photo -->
-					<div class="project-more-images container-fluid wip-image">
+					<div class="project-more-images wip-image">
 								<img src="/media/projects/distdans/wireframe1.png" alt="about Jia" title="about Jia">
 					</div>
 					<!-- more photo -->
-					<div class="project-more-images container-fluid wip-image">
+					<div class="project-more-images wip-image">
 								<img src="/media/projects/distdans/wireframe2.png" alt="about Jia" title="about Jia">
 					</div>
 
 					<!-- more text -->
 
 
-					<div class="project-more-info container-fluid">
+					<div class="project-more-info">
 
 							<h2>Testing iBeacon app with Estimotes</h2>
 							<p>
@@ -348,12 +352,12 @@
 						</p>
 					</div>
 
-					<div class="project-more-images container-fluid wip-image">
+					<div class="project-more-images wip-image">
 					
-						<iframe src="https://player.vimeo.com/video/124856694?title=0&byline=0&portrait=0" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="https://player.vimeo.com/video/124856694?title=0&byline=0&portrait=0" width="712" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 
-					<div class="project-more-info container-fluid">
+					<div class="project-more-info">
 
 							<h2>Testing iBeacon app with phones</h2>
 							<p>
@@ -363,9 +367,9 @@
 							To learn more about how iBeacons work, check out <a href="http://itp.fromjia.com/?p=601">this presentation</a> I put together. 
 						</p>
 					</div>
-					<div class="project-more-images container-fluid wip-image">
+					<div class="project-more-images wip-image">
 
-						<iframe src="https://player.vimeo.com/video/125407428?title=0&byline=0&portrait=0" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="https://player.vimeo.com/video/125407428?title=0&byline=0&portrait=0" width="712" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</div>
 				
@@ -374,19 +378,16 @@
 				<footer class="container-fluid">
 					<div id="back-to-top">
 						<a href="#">
-						<img src="/media/arrow.png" alt="Up" title="Up">
+						<img src="media/arrow.png" alt="Up" title="Up">
 						<h5>back to top</h5>
 					</a>
 					</div>
 
 					<div class="footer-content">
-						<div id="footer-sm" class="pull-right">
-							<ul class="list-unstyled">
+						<div id="footer-sm" class="col-xs-12 col-sm-6 pull-right">
+							<ul class="list-unstyled pull-right">
 							<li data-platform="twitter">
 								<a class="symbol" href="https://twitter.com/OhJia" target="_blank" title="twitterbird"><span>Twitter</span></a>
-							</li>
-							<li data-platform="twitter">
-								<a class="symbol" href="mailto:hello@fromjia.com" target="_blank" title="email"><span>Email</span></a>
 							</li>
 							<li data-platform="twitter">
 								<a class="symbol" href="https://www.linkedin.com/pub/jiashan-wu/6/707/9ab" target="_blank" title="linkedin"><span>LinkedIn</span></a>
@@ -394,11 +395,14 @@
 							<li data-platform="twitter">
 								<a class="symbol" href="https://github.com/OhJia" target="_blank" title="githubalt"><span>GitHub</span></a>
 							</li>
+							<li data-platform="twitter">
+								<a class="symbol" href="mailto:hello@fromjia.com" target="_blank" title="email"><span>Email</span></a>
+							</li>
 						</ul>
 						</div>
 						
-						<div id="copyright">
-							<h6>©2007-2015 Jiashan Wu, unless noted differently.</h6>
+						<div id="copyright" class="col-xs-12 col-sm-6">
+							<h6>©2008-2015 Jiashan Wu, unless noted differently.</h6>
 							<h6><a href="https://github.com/OhJia/fromjia/tree/gh-pages">Browse source code</a></h6>
 						</div>
 					</div>
