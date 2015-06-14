@@ -1101,6 +1101,10 @@ footer {
 	/*padding-top: 10px;*/
 }
 
+.about-badges h3 {
+	font-size: 18px;
+}
+
 .about-entry {
 	padding-bottom: 12px;
 	padding-right: 105px;
