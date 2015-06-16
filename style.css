@@ -142,7 +142,7 @@ h2 a {
 
 h5 a {
 	/*color: #ED1D3E;*/
-	color: white;
+	color: #c1c1c2;
 }
 
 p {
@@ -522,9 +522,15 @@ p {
 }
 
 #intro {
-	padding-bottom: 80px;
+	padding-bottom: 30px;
 	padding-top: 10px;
 	/*padding-right: 100px;*/
+}
+
+#intro a {
+	color: #e61633;
+  padding: 0 5px;
+  background-color: #f2f2f2;
 }
 
 #intro h2 {
@@ -534,11 +540,15 @@ p {
 #intro-triangle {
 	margin: 0 auto;
 	text-align: center;
-	  padding-top: 40px;
+	  padding-top: 80px;
+}
+
+#intro-triangle img {
+	width: 120px;
 }
 
 .home-intro {
-	padding: 80px 55px 54px 55px;
+	padding: 0px 55px 154px 55px;
 	/*background-color: #bfe2db;*/
 	/*margin-top: 10px;*/
 	background: #bff7ec; /* Old browsers */
@@ -562,10 +572,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', end
 	line-height: 50px;
 	padding-right: 30px;
 	padding-top: 10px;
+	text-align: center;
 }
 
 .home-sections-1 {
-	margin: -80px auto 0px auto;
+	margin: 0px auto 30px auto;
 	text-align: center;
 }
 
@@ -580,8 +591,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', end
 }
 
 #things-i-made {
-	background-color: #d7dff4;
+	/*background-color: #d7dff4;*/
+	background-color: #FCE8E3;
 	padding-bottom: 100px;
+	padding-top: 40px;
 }
 
 #updates-home {
@@ -627,14 +640,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', end
 
 .home-projects-area {
 	padding: 40px 24px 180px 24px;
-	background-color: #ceeae8;
+	/*background-color: #ceeae8;*/
 	/*background-image: url("media/pattern4_gray.png");
     background-repeat: repeat-y repeat-x;*/
+    background: #bff7ec; /* Old browsers */
+background: -moz-linear-gradient(top,  #bff7ec 0%, #d7dff4 50%, #fcdfdb 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bff7ec), color-stop(50%,#d7dff4), color-stop(100%,#fcdfdb)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #bff7ec 0%, #d7dff4 50%, #fcdfdb 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #bff7ec 0%, #d7dff4 50%, #fcdfdb 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #bff7ec 0%, #d7dff4 50%, #fcdfdb 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #bff7ec 0%, #d7dff4 50%, #fcdfdb 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', endColorstr='#d7dff4',GradientType=0 ); /* IE6-9 */
 }
 
 .home-blog-area {
 	padding: 40px 55px 100px 55px;
-	background-color: #CBD2FA;
+	background-color: #d7dff4;
 	/*background-image: url("media/pattern4_gray.png");
     background-repeat: repeat-y repeat-x;*/
 }
@@ -872,7 +893,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', end
 .blog-home-post h5{
 	display: inline;
 	/*background-color: #0722fb;*/
-	background-color: #c1c1c2;
+	/*background-color: #f2f2f2;*/
+	background-color: #000;
   	padding: 8px 65px;
   	float: right;
   	color: white;
@@ -886,7 +908,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', end
 .project-box-tag h5 {
 	display: inline;
 	/*background-color: #4a0bf9;*/
-	background-color: #c1c1c2;
+	background-color: #000;
   	padding: 8px 65px;
   	float: right;
   	color: white;
@@ -1046,8 +1068,16 @@ footer {
 
 .about-jia {
 	min-height: 200px;
-	background-color: #ceeae8;
+	background-color: #bff7ec; ceeae8
 	/*margin-bottom: 4px;*/
+	background: #bff7ec; /* Old browsers */
+background: -moz-linear-gradient(top,  #bff7ec 0%, #ceeae8 50%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bff7ec), color-stop(50%,#ceeae8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #bff7ec 0%,#ceeae8 50%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #bff7ec 0%,#ceeae8 50%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #bff7ec 0%,#ceeae8 50%); /* IE10+ */
+background: linear-gradient(to bottom,  #bff7ec 0%,#ceeae8 50%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff7ec', endColorstr='#ceeae8',GradientType=0 ); /* IE6-9 */
 }
 
 .about-jia-post {
@@ -1473,32 +1503,32 @@ a[data-show-tag] h6 {
 }
 
 a[data-show-tag="mobile"] h6 {
-	border: solid #1a30ea;
+	border: solid 2px #1a30ea;
 	color: #1a30ea;
 }
 a[data-show-tag="web"] h6 {
-	border: solid #4328c0;
+	border: solid 2px #4328c0;
 	color: #4328c0;
 }
 a[data-show-tag="hardware"] h6 {
-	border: solid #6c229b;
+	border: solid 2px #6c229b;
 	color: #6c229b;
 }
 a[data-show-tag="wearable"] h6 {
-	border: solid #931c77;
+	border: solid 2px #931c77;
 	color: #931c77;
 }
 a[data-show-tag="data"] h6 {
-	border: solid #bf1751;
+	border: solid 2px #bf1751;
 	color: #bf1751;
 }
 
 a[data-show-tag="other"] h6 {
-	border: solid #e61633;
+	border: solid 2px #e61633;
 	color: #e61633;
 }
 a[data-show-tag="all"] h6 {
-	border: solid #3c3c3c;
+	border: solid 2px #3c3c3c;
 	color: #3c3c3c;
 }
 
@@ -1627,7 +1657,10 @@ body.unload #content {opacity: 0 !important;}
 	}
 
 	/* home ***/
-	.home-intro {padding: 10px 0px 54px 20px; text-align: center;}
+	.home-intro {padding: 0px 55px 154px 55px; text-align: center;}
+	.home-intro h1 {
+		padding-right: 0px;
+	}
 	.home-intro-splash {margin-top: 5px;}
 	
 	.blog-home, .home-black-area {
