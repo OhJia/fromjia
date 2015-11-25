@@ -21,7 +21,7 @@ function draw() {
       ,'uniform mat4 uMatrix;'
       ,'varying vec3 uPos;'
       ,'void main() {'
-      ,'   uPos = aPos * 0.6 + 0.3;'
+      ,'   uPos = aPos*0.5;'
       ,'   gl_Position = uMatrix * vec4(aPos, 1.);'
       ,'}',
       ].join('\n')
@@ -40,29 +40,12 @@ function draw() {
       set vertices to buffer
    */
 
-   // cube vertices
-   function createCube() {
-      var vertices = [
-         -.5,-.5, .5,
-         -.5, .5, .5,
-          .5,-.5, .5,
-          .5, .5, .5,
-          .5,-.5,-.5,
-          .5, .5,-.5,
-         -.5,-.5,-.5,
-         -.5, .5,-.5,
-         -.5,-.5, .5,
-         -.5, .5, .5,
-      ];
-     return vertices;
-   }
-
    // var vertices = createCube();
 
    // sphere vertices
    var vertices = [];
-   var sphereNumV = 8;
-   var sphereNumU = 8;
+   var sphereNumV = 9;
+   var sphereNumU = 9;
    var radius = 0.6;
    for (var v = 0; v < sphereNumV; v++){
       for (var u = 0; u < sphereNumU; u++){
