@@ -76,6 +76,7 @@ padding-left: 0px;
 
 body {
 	font-size: 16px;
+	color: black !important;
 }
 
 h1 {
@@ -100,6 +101,13 @@ h3 {
 }
 
 h5 {
+
+	font-weight: bold;
+	font: 14px "HKGrotesk-bold", sans-serif;
+}
+
+
+h6 {
 
 	font-weight: bold;
 	font: 14px "HKGrotesk-bold", sans-serif;
@@ -630,6 +638,13 @@ p {
 	padding-top: 40px;
 }
 
+#home-sketches {
+	/*background-color: #d7dff4;*/
+	background-color: #FCE8E3;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
 #updates-home {
 	border: 1px solid black;
 	padding: 15px;
@@ -660,7 +675,8 @@ p {
 
 .project-title {
 	color: white;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
+	padding-top: 10px;
 	text-align: center;
 }
 
@@ -688,7 +704,7 @@ p {
 }
 
 .home-sketches-area {
-	margin: 0px 55px 120px 55px;
+	margin: 0px 55px 50px 55px;
 }
 
 .home-blog-area {
@@ -702,7 +718,7 @@ p {
 	padding: 0px 24px 50px 24px;
 	background-color: #000;
 	min-height: 200px;
-	margin-bottom: 4px;
+	margin-bottom: 105px;
 	margin-left: 55px;
 	margin-right: 55px;
 }
@@ -734,7 +750,7 @@ p {
 .project-left {
 	/*padding-right: 16px;*/
 	padding-right: 10px;
-	padding-top: 35px;
+	/*padding-top: 35px;*/
 }
 
 .project-mid {
@@ -742,13 +758,13 @@ p {
 	padding-right: 8px;*/
 	padding-left: 5px;
 	padding-right: 5px;
-	padding-top: 35px;
+	/*padding-top: 35px;*/
 }
 
 .project-right {
 	/*padding-left: 16px;*/
 	padding-left: 10px;
-	padding-top: 35px;
+	/*padding-top: 35px;*/
 }
 
 .project-box {
@@ -884,8 +900,9 @@ p {
 
 .blog-text p {
 	display: inline;
-	font-size: 17px;
+	/*font-size: 17px;*/
 	color: #3c3c3c;
+	font: 17px "HKGrotesk-regular", sans-serif;
 }
 
 /*.blog-home-image {
@@ -1125,8 +1142,8 @@ footer {
 	background-color: #FFFFFF;
 	/*border: 1px solid black;*/
 	margin-top: -155px;
-	margin-left: 10px;
-	margin-right: -10px;
+	margin-left: 20px;
+	margin-right: -20px;
 	padding: 30px 24px 40px 54px;
 	position: relative; 
 	z-index: 2;
@@ -1185,6 +1202,8 @@ footer {
 	padding: 25px;
 	color: #cecece;
 	padding-top: 25px;
+	padding-left: 50px;
+	font: 17px "HKGrotesk-regular", sans-serif;
 }
 
 .word-from-social h5 {
@@ -1363,8 +1382,8 @@ iframe {
 }
 
 .project-more-info p {
-	font-size: 17px;
 	color: #3c3c3c;
+	font: 17px "HKGrotesk-regular", sans-serif;
 }
 
 .project-link h2 {
