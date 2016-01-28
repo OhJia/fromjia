@@ -122,7 +122,7 @@ a:hover {
 	text-decoration: none;
 	/*color: #ED1D3E;*/
 	color: #4958a1;
-	transition: color 0.5s, opacity 0.5s;
+	/*transition: color 0.5s, opacity 0.5s;*/
 	opacity: 0.9;
 }
 
@@ -157,7 +157,7 @@ a:hover h5 {
 a:hover h2 {
 	/*color: #ED1D3E;*/
 	transition: color 0.2s, opacity 0.5s;
-	opacity: 0.6;
+	opacity: 0.9;
 }
 
 .project-list a:hover h6 {
@@ -756,8 +756,8 @@ p {
 .project-mid {
 	/*padding-left: 8px;
 	padding-right: 8px;*/
-	padding-left: 5px;
-	padding-right: 5px;
+	/*padding-left: 5px;
+	padding-right: 5px;*/
 	/*padding-top: 35px;*/
 }
 
@@ -810,6 +810,7 @@ p {
 
 .project-box-description .description p {
 	display: inline;
+	font: 18px "HKGrotesk-regular", sans-serif;
 }
 
 .image-area img {
@@ -1074,6 +1075,10 @@ footer {
 	display: inline-block;
 }
 
+.footer-social {
+	float: right !important;
+}
+
 
 #back-to-top{
 	text-align: center;
@@ -1324,7 +1329,7 @@ iframe {
 
 .project-arrows h5:hover{
 	background-color: #fff;
-	box-shadow: 1px 1px 0px 0 rgba(14,15,16,0.12);
+	box-shadow: 1px 1px 0px 0 rgba(14,15,16,0.22);
 	opacity: 100%;
 }
 
@@ -1340,12 +1345,12 @@ iframe {
 
 .project-arrows a {
 	opacity: 1;
-	transition: opacity 0.5s;
+	/*transition: opacity 0.5s;*/
 }
 
 .project-arrows a:hover {
-	opacity: 0.7;
-	transition: opacity 0.5s;
+	opacity: 1;
+	/*transition: opacity 0.5s;*/
 }
 
 #project-tags a {
@@ -1657,6 +1662,9 @@ body.unload #content {opacity: 0 !important;}
 /* mobile **************************/
 @media (max-width: 768px) {
 	#content {padding: 0px 6px 0px 6px;}
+	.home-sketches-area {
+		margin: 0px 10px 0px 10px;
+	}
 	a[data-show-tag] h6 {font-size: 14px;}
 	/*h1 {font-size: 30px;}*/
 	footer {margin-bottom: 5px;}
@@ -1730,10 +1738,17 @@ body.unload #content {opacity: 0 !important;}
 	}
 	.home-intro-splash {margin-top: 5px;}
 	
-	.blog-home, .home-black-area {
+	.blog-home {
 		margin-left: 10px;
 		margin-right: 10px;
 		margin-bottom: 0px;
+		background-position: left;
+		background-size: 260%;
+	}
+	.home-black-area {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 50px;
 		background-position: left;
 		background-size: 260%;
 	}
@@ -1882,6 +1897,12 @@ body.unload #content {opacity: 0 !important;}
   	}
   	.project-more-images {
   		padding: 10px 20px 20px 20px;
+  	}
+
+  	.footer-social {
+  		position: relative;
+  		margin: 0 auto;
+  		text-align: center;
   	}
 
 }

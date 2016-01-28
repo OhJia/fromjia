@@ -74,7 +74,7 @@ $(window).on('resize', function() {
 	headerOffset = $('#header').height();
 
 	$('[data-scroll-section]').each(function() { // [] CSS
-		sectionTops[ $(this).attr('data-scroll-section') ] = $(this).offset().top + $(this).height() + 100;
+		sectionTops[ $(this).attr('data-scroll-section') ] = $(this).offset().top + $(this).height() + 50;
 	});
 
 }).on('scroll', function() {
