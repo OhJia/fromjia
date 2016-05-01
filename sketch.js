@@ -90,8 +90,8 @@ $(window).on('resize', function() {
 		$.each(sectionTops, function(title,top) {
 			console.log(title,scrollTop,top)
 			if (scrollTop + headerOffset <= top) {
-			$('#breadcrumbs h1').html(title)
-			return false;
+				$('#breadcrumbs h1').html(title)
+				return false;
 			}
 		});
 	}

@@ -467,6 +467,14 @@ p {
 	right: 30px;
 }
 
+/*#brand-project {
+	padding-top: 26px;
+	position: absolute;
+	right: 30px;
+	width: 50%;
+}*/
+
+
 #brand.down img{
 	width: 50%;
 	transition: width 0.2s;
