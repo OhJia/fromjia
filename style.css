@@ -632,6 +632,19 @@ p {
 	background-color: #FFFFFF;
 }
 
+.splash-social {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.splash-social li {
+	display: inline-block;	
+}
+
+.splash-social .symbol {
+	font-size: 30px;	
+}
+
 #things-i-made {
 	/*background-color: #d7dff4;*/
 	background-color: #FCE8E3;
