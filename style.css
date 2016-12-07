@@ -593,7 +593,7 @@ p {
 	padding: 0px 55px 154px 55px;
 	/*background-color: #bfe2db;*/
 	/*margin-top: 10px;*/
-	background: #f9ccb4; /* Old browsers */
+	background: #f9cabd; /* Old browsers */
 /*background: -moz-linear-gradient(top,  #bff7ec 0%, #d7dff4 100%); /* FF3.6+ */
 /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bff7ec), color-stop(100%,#d7dff4)); /* Chrome,Safari4+ */
 /*background: -webkit-linear-gradient(top,  #bff7ec 0%,#d7dff4 100%); /* Chrome10+,Safari5.1+ */
@@ -605,7 +605,7 @@ p {
 }
 
 .home-intro-splash {
-	background-color: #f9ccb4;
+	background-color: #f9cabd;
 	min-height: 50px;
 	margin-top: 80px;
 }
@@ -730,7 +730,7 @@ p {
 
 .home-blog-area {
 	padding: 40px 55px 100px 55px;
-	background-color: #f9ccb4;
+	background-color: #ffb49d;
 	/*background-image: url("media/pattern4_gray.png");
     background-repeat: repeat-y repeat-x;*/
 }
@@ -1128,7 +1128,7 @@ footer {
 
 .portrait-area {
 	padding: 40px 0px 30px 0px;
-  background-color: #f9ccb4;
+  background-color: #ffb49d;
   margin-bottom: 0px;
 }
 
@@ -1154,7 +1154,7 @@ footer {
 .about-jia {
 	min-height: 200px;
 	/*margin-bottom: 4px;*/
-	background: #f9ccb4; /* Old browsers */
+	background: #ffb49d; /* Old browsers */
 /*background: -moz-linear-gradient(top,  #bff7ec 0%, #ceeae8 50%); /* FF3.6+ */
 /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bff7ec), color-stop(50%,#ceeae8)); /* Chrome,Safari4+ */
 /*background: -webkit-linear-gradient(top,  #bff7ec 0%,#ceeae8 50%); /* Chrome10+,Safari5.1+ */
